@@ -1,9 +1,5 @@
 /* color pallet:
-#A1D6B2
-#CEDF9F
-#F1F3C2
-#E8B86D
-
+#93BFCF
 */
 body{
     background: linear-gradient(to right, #93BFCF, #b3c7ce);
@@ -11,7 +7,7 @@ body{
 h1{
     font-family: "Lobster";
     font-size: 6em;
-    color: #ffff;
+    color: white;
     padding-top: 40vh;
     padding-bottom: 5vh;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
