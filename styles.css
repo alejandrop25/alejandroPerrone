@@ -8,21 +8,21 @@ body{
 }
 h1{
     font-family: "Lobster";
-    font-size: 7.5vw;
+    font-size: 5vw;
     color: white;
-    padding-top: 40vh;
+    padding-top: 5vh;
     padding-bottom: 5vh;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 h2{
     font-family: "Dancing Script";
-    font-size: 5vw;
+    font-size: 3.2vw;
     color: #b1e4f8;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     margin-bottom: 50vh;
 }
 a {
-    padding-bottom: 5em;
+    padding-bottom: 2em;
 }
 .intro-p{
     margin-top: 5vh;
@@ -46,8 +46,16 @@ a {
     display: flex;
     justify-content: center;
 }
+.image-container2{
+    display: flex;
+    justify-content: right;
+}
 .mountain-img{
     max-width: 60%;
+    height: auto;
+}
+.paperplane{
+    max-width: 100%;
     height: auto;
 }
 .links-uteis{
