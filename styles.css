@@ -2,9 +2,11 @@
 #93BFCF
 */
 body{
-    background: linear-gradient(to right, #93BFCF, #b3c7ce);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.first-div{
+    background: linear-gradient(to right, #93BFCF, #b3c7ce);
 }
 h1{
     font-family: "Lobster";
@@ -20,9 +22,6 @@ h2{
     color: #b1e4f8;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     margin-bottom: 50vh;
-}
-a {
-    padding-bottom: 2em;
 }
 .intro-p{
     margin-top: 5vh;
