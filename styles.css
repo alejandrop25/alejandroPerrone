@@ -59,9 +59,20 @@ a {
     height: auto;
 }
 .links-uteis{
-    margin-top: 30vh;
+    margin: 30vh;
     margin-left: 44vw;
+    width: fit-content;
     text-align: left;
+}
+@media (max-width: 700px){
+    .links-uteis{
+        margin-left: 30vw;
+    }
+}
+@media (max-width: 1000px){
+    .links-uteis{
+        margin-left: 37vw;
+    }
 }
 
 
