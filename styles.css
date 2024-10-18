@@ -63,15 +63,22 @@ h2{
     width: fit-content;
     text-align: left;
 }
-@media (max-width: 700px){
-    .links-uteis{
-        margin-left: 30vw;
-    }
+.tecnologias{
+    list-style-type: none;
 }
 @media (max-width: 1000px){
     .links-uteis{
         margin-left: 37vw;
     }
 }
-
+@media (max-width: 600px ){
+    .links-uteis{
+        margin-left: 33%;
+    }
+}
+@media (max-width: 400px ){
+    .links-uteis{
+        margin-left: 27%;
+    }
+}
 
