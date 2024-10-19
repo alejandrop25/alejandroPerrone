@@ -58,13 +58,32 @@ h2{
     height: auto;
 }
 .links-uteis{
-    margin: 30vh;
-    margin-left: 44vw;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
     width: fit-content;
     text-align: left;
 }
-.tecnologias{
+li{
     list-style-type: none;
+}
+hr{
+    width: 40vw;
+    height: 4px;
+}
+.tecnologias{
+    text-align: left;
+    margin-left: 40vw;
+}
+@media (max-width: 1200px){
+    .tecnologias{
+        margin-left: 30vw;
+    }
+}
+@media (max-width: 700px){
+    .tecnologias{
+        margin-left: 22vw;
+    }
 }
 @media (max-width: 1000px){
     .links-uteis{
@@ -79,6 +98,9 @@ h2{
 @media (max-width: 400px ){
     .links-uteis{
         margin-left: 27%;
+    }
+    .tecnologias{
+        margin-left: 15vw;
     }
 }
 
