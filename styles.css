@@ -5,7 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.first-div{
+.primeira-div{
     background: linear-gradient(to right, #93BFCF, #b3c7ce);
 }
 h1{
@@ -30,7 +30,7 @@ h2{
 .conteudo-p{
     font-size: 1.2em;
 }
-.second-div{
+.segunda-div{
     background: white;
     text-align: center;
     padding-top: 8vh;
@@ -68,6 +68,26 @@ h2{
 li{
     list-style-type: none;
 }
+.div-lista > ul{
+    margin-left: 44vw;
+}
+.links-uteis >  a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.links-uteis >  a:hover{
+    color: rgb(52, 104, 216);
+}
+.segunda-div > a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.segunda-div > a:hover{
+    color: rgb(67, 125, 250);
+}
 hr{
     width: 40vw;
     height: 4px;
@@ -77,16 +97,15 @@ footer{
 }
 .tecnologias{
     text-align: left;
-    margin-left: 40vw;
 }
 @media (max-width: 1200px){
-    .tecnologias{
-        margin-left: 30vw;
+    .div-lista > ul{
+        margin-left: 40vw;
     }
 }
 @media (max-width: 700px){
-    .tecnologias{
-        margin-left: 22vw;
+    .div-lista > ul{
+        margin-left: 35vw;
     }
 }
 @media (max-width: 1000px){
@@ -103,8 +122,8 @@ footer{
     .links-uteis{
         margin-left: 27%;
     }
-    .tecnologias{
-        margin-left: 15vw;
+    .div-lista > ul{
+        margin-left: 18vw;
     }
 }
 
