@@ -38,6 +38,7 @@ h2{
 }
 .profile{
     width: 15vh; 
+    height: 15vh;
     border-radius: 50%; 
     object-fit: cover;
 }
@@ -70,6 +71,9 @@ li{
 hr{
     width: 40vw;
     height: 4px;
+}
+footer{
+    padding-bottom: 10vh;
 }
 .tecnologias{
     text-align: left;
